@@ -1,0 +1,90 @@
+
+html {
+  font-family: sans-serif; 
+  line-height: 1.15; 
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%; 
+}
+body{
+
+	background-color: lightblue;
+	margin: 0;
+
+}
+
+.title{
+	background-color: lightyellow;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+a {
+  background-color: transparent; 
+
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: white;
+	padding: 15px 15px;
+	background-color: forestgreen;
+	display: inline-block;
+	margin: 15px;
+	text-align: right;
+
+}
+
+a:hover, a:active{
+	background-color: hotpink;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.19rem;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  float: right;
+}
+
+.btn--small {
+  font-size: .88rem;
+  padding: 10px 13px;
+  font-weight: 300;
+}
+
+.btn--orange:hover {
+  background: linear-gradient(#EE964B, rgb(235, 109, 0));
+}
+
+.btn--dark-orange {
+  background-color: #F95738;
+}
+
+.btn--dark-orange:hover {
+  background: linear-gradient(#F95738, rgb(204, 34, 0));
+}
+
+.content{
+  background-color: lightyellow;
+}
+.create{
+	text-decoration: none;
+}
+.re-title{
+	background-color: lightyellow;
+	text-align: center;
+	text-decoration: underline;
+
+}
+.name1{
+	font-size: 20px;
+	text-align: left;
+	background-color: lightyellow;
+}
